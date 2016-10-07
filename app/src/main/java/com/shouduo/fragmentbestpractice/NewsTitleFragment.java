@@ -4,6 +4,7 @@ import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,6 +59,7 @@ public class NewsTitleFragment extends Fragment implements AdapterView.OnItemCli
             newsContentFragment.refresh(news.getTitle(), news.getContent());
         } else {
             NewsContentActivity.actionStart(getActivity(), news.getTitle(), news.getContent());
+            Log.d("NewsTitleFragment", "onItemClick");
         }
     }
 

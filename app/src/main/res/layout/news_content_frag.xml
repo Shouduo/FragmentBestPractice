@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:scaleType="fitXY"
-            android:src="@android:color/holo_blue_dark"/>
+            android:src="@android:color/darker_gray" />
 
         <TextView
             android:id="@+id/news_content"
@@ -38,6 +38,6 @@
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:scaleType="fitXY"
-        android:src="@android:color/holo_blue_dark"/>
+        android:src="@android:color/darker_gray"/>
 
 </RelativeLayout>
